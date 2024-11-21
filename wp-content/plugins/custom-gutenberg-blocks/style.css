@@ -1,0 +1,19 @@
+/* style.css */
+.image-content-block {
+  display: flex;
+  align-items: center;
+}
+
+.image-content-block img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.image-content-block textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

@@ -1,0 +1,27 @@
+.image-content-block {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 20px;
+  border: 1px dashed #ccc;
+}
+
+.image-content-block .image-wrapper {
+  max-width: 50%;
+}
+
+.image-content-block .text-wrapper {
+  flex: 1;
+  max-width: 50%;
+}
+
+.image-content-block .block-title,
+.image-content-block .block-subtitle,
+.image-content-block .block-description {
+  padding: 10px 0;
+}
+
+.image-content-block img {
+  max-width: 100%;
+  height: auto;
+}
